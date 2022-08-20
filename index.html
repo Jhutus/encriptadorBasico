@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de mensajes básico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+      <div class="contenedor">
+        <header>
+            <div class="titulo">
+                ENCRIPTADOR BÁSICO
+            </div>
+        </header>
+        <section class="main">
+            <textarea name="texto-ingresado" id="texto-ingresado" placeholder="Escriba acá el texto"></textarea>
+            <h4>*Solo letras minusculas y sin acentos</h4>
+            <div class="botones">
+                <button class="boton" id="btn-encriptar">Encriptar</button>
+                <button class="boton" id="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="resultado">
+            <h2>Resultado</h2>
+            <textarea name="texto-dado" id="texto-dado" placeholder="No has encriptado ni desencriptado un texto" readonly>Esto es un textoo</textarea>
+            <div class="botones2">
+                <button class="boton2" id="btn-copiar">Copiar texto</button>
+            </div>
+        </section>
+        <footer>
+            <p>este es el footer</p>
+        </footer>
+        <script src="script.js"></script>
+  </body>
+</html>
