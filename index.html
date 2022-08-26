@@ -19,22 +19,31 @@
         </header>
         <section class="main">
             <textarea name="texto-ingresado" id="texto-ingresado" placeholder="Escriba acá el texto"></textarea>
-            <h4>*Solo letras minusculas y sin acentos</h4>
             <div class="botones">
-                <button class="boton" id="btn-encriptar">Encriptar</button>
-                <button class="boton" id="btn-desencriptar">Desencriptar</button>
+                <button class="button-82-pushable" id="btn-encriptar" role="button">
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">Encriptar</span>
+                  </button>
+                <button class="button-82-pushable" id="btn-desencriptar" role="button">
+                    <span class="button-82-edge"></span>
+                    <span class="button-82-front text">Desencriptar</span>
+                  </button>
             </div>
+            <h4>*Los acentos y mayúsculas se perderán al encriptar el texto</h4>
         </section>
         <section class="resultado">
             <h2>Resultado</h2>
-            <textarea name="texto-dado" id="texto-dado" placeholder="No has encriptado ni desencriptado un texto" readonly>Esto es un textoo</textarea>
+            <textarea name="texto-dado" id="texto-dado" placeholder="No has encriptado ni desencriptado un texto" readonly></textarea>
             <div class="botones2">
                 <button class="boton2" id="btn-copiar">Copiar texto</button>
             </div>
         </section>
         <footer>
-            <p>este es el footer</p>
+            <div class="logo">
+                <img src="img/Jhutus.png" alt="Jhutus logo">
+                <p class="logo_des">Sitio creado por Jhutus</p>
+            </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="scripts/script.js"></script>
   </body>
 </html>
